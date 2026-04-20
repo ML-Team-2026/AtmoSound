@@ -1,2 +1,2 @@
-[report.md](report.md)
-[midpoint.md](midpoint.md)
+- [report.md](report.md)
+- [midpoint.md](midpoint.md)

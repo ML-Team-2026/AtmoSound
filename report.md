@@ -16,7 +16,7 @@ The pipeline uses two core ML methods: Ridge Regression and a two-layer Neural N
 
 The system is deployed as a Streamlit web application targeting venue owners and brand managers. Users input a Google Maps link and receive a curated playlist tailored to their space. We expect the system to recommend playlists that better match a venue's atmosphere by leveraging the full combination of venue features. We believe this will help venue owners strengthen the overall customer experience and reinforce their brand identity, without needing any music expertise.
 
-# [3] **Background**
+# [3] Background
 
 Background music directly affects customer sentiment and dwell time, and the effect is strongest when the music aligns with the atmosphere of the space\~\\cite{Roschk2017Calibrating, Wirtz2001Congruency}. However, research on atmospheric cues shows that venues often rely on heuristics and intuition when selecting music and other ambience elements\~\\cite{Douce2022Crossmodal}.
 
@@ -121,6 +121,8 @@ K-Means produces coarser predictions—every venue in a cluster receives identic
 
 ## [4.2] Front-End Application Using Streamlit
 
+[Figma](https://www.figma.com/design/9u4ravj5uUmg4kcjaj0IFI/AtmoSound-Final-Proposal?node-id=1-4&t=LUSxelZiGufd4wv5-1%20)
+
 The **target population** is business owners and managers of venues like restaurants, hotels, retail stores and fitness centers who require an automated music curation solution without prior knowledge of machine learning, currently served by services like Soundtrack Your Brand or Mood Media.
 
 The UI layout is depicted in Figures 19, 20 and 21\. The sidebar contains navigation buttons for Home, About Us, Recently Generated, Most Played, Your Favorites, Settings and Logout. The top bar includes Contact Us, How It Works and Sign Up. The primary input is a Google Maps text field accompanied by a Generate Playlist button that triggers the back-end pipeline and returns a curated playlist. After clicking Generate Playlist the application renders two pages: the Statistics page displaying venue analysis including busyness patterns, category and extracted attributes, and the Playlist page displaying song titles, artists, energy and valence after the user clicks GO TO PLAYLIST.
@@ -139,12 +141,11 @@ The pipeline starts when the user pastes a Google Maps URL and clicks GENERATE P
 | Fig 4  | 4.2 (Question 5\) | Flowchart for Front-End to Back-End connection |
 
 
-[Figma](https://www.figma.com/design/9u4ravj5uUmg4kcjaj0IFI/AtmoSound-Final-Proposal?node-id=1-4&t=LUSxelZiGufd4wv5-1%20)
 
 # [5] Risk & Mitigation
 
 Three anticipated challenges are Google Maps API rate limits and incomplete venue profiles reducing analysis quality, the model relying on historical busyness data that may not reflect the actual current atmosphere such as generating high energy music on a quiet Friday evening and the Spotify Tracks Dataset being three years old and potentially lacking recent songs. To mitigate these, the team will cache Google Maps data early in development, provide busyness sliders on the Statistics page for real time operator override and filter the Spotify dataset to prioritize tracks from the past five years.
-# [6] **Appendix 
+# [6] Appendix 
 
 ## [A.1 - 4.1.1] Diagrams (4.1.1 Data Collection, Exploration & Processing (6 points) in Grading Rubric)
 
@@ -173,10 +174,10 @@ Three anticipated challenges are Google Maps API rate limits and incomplete venu
 
 [Figma](https://www.figma.com/design/9u4ravj5uUmg4kcjaj0IFI/AtmoSound-Final-Proposal?node-id=1-4&t=LUSxelZiGufd4wv5-1%20)
 
-**Figure 19 \- UI**
+Figure 19 \- UI**
 
-**Figure 20 \- UI**
+Figure 20 \- UI**
 
-**Figure 21 \- UI**
+Figure 21 \- UI**
 
-**Figure 22 \- 4.2 (Question 5\)**
+Figure 22 \- 4.2 (Question 5\)**

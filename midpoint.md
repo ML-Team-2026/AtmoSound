@@ -14,10 +14,9 @@ information, which can be any reasonable length as long as it answers all the cr
 5. An overview of what you still have left to accomplish, and your path to doing so. (5 points) {L,J}
 
 Guidelines/Checklist:
-- [] The submission should describe what you've accomplished so far, and briefly say what else you plan to do. The goal is to make sure that you are on track to
+- The submission should describe what you've accomplished so far, and briefly say what else you plan to do. The goal is to make sure that you are on track to
 finish the final project.
-- [] **Motivation:** What problem are you tackling? Is this an application or a theoretical result?
-- [] **Method:** What machine learning techniques are you planning to apply or improve upon and how?
-- [] **Preliminary experiments:** Describe the experiments that you've run, the outcomes, and any error analysis that you've done. You should have tried at least one baseline.
-- [] **Future work:** What else do you plan to do? The goal of the milestone is to make sure you're on the right track.
-
+- **Motivation:** What problem are you tackling? Is this an application or a theoretical result?
+- **Method:** What machine learning techniques are you planning to apply or improve upon and how?
+- **Preliminary experiments:** Describe the experiments that you've run, the outcomes, and any error analysis that you've done. You should have tried at least one baseline.
+- **Future work:** What else do you plan to do? The goal of the milestone is to make sure you're on the right track.

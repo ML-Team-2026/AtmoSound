@@ -7,7 +7,7 @@
 ## How to Run the the AtmoSound Streamlit App
 
 1. Clone the repository:
-   git clone https://github.com/<your-repo-link>
+   git clone [https://github.com/<your-repo-link>](https://github.com/ML-Team-2026/AtmoSound.git)
 
 2. Navigate to the project folder:
    cd AtmoSound

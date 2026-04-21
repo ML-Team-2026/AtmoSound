@@ -1,0 +1,11 @@
+{
+  "model_type": "ridge_regression",
+  "lambda": 1e-05,
+  "label_multiplier": 0.5,
+  "test_mse": 0.035156397321526825,
+  "test_rmse": 0.1875003928569933,
+  "test_cos_sim": 0.6451605834297449,
+  "test_top3_acc": 0.9989094874591058,
+  "test_top5_acc": 0.9989094874591058,
+  "selection_method": "Highest Top-3 Genre Accuracy"
+}

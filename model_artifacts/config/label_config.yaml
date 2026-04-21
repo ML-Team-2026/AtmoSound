@@ -1,0 +1,50 @@
+# Pseudo-Label Construction Hyperparameters
+
+# Experiment 3: Label Quality Sweep
+shift_multipliers: [0.5, 0.75, 1.0, 1.25, 1.5]
+
+# Boolean attribute shifts (scaled by multiplier)
+boolean_genre_shifts:
+  live_music:
+    genres: [jazz, blues, rock, folk, acoustic, soul]
+    base_weight: 0.15
+  good_for_watching_sports:
+    genres: [rock, hip-hop, electronic, pop]
+    base_weight: 0.12
+  outdoor_seating:
+    genres: [folk, acoustic, indie, reggae]
+    base_weight: 0.08
+  serves_cocktails:
+    genres: [jazz, soul, r-n-b, chill]
+    base_weight: 0.08
+  serves_beer:
+    genres: [rock, country, blues, indie]
+    base_weight: 0.06
+  serves_wine:
+    genres: [jazz, classical, acoustic]
+    base_weight: 0.06
+  serves_coffee:
+    genres: [acoustic, indie, jazz, folk]
+    base_weight: 0.06
+  good_for_children:
+    genres: [pop, acoustic, indie, folk]
+    base_weight: 0.04
+  allows_dogs:
+    genres: [indie, folk, acoustic]
+    base_weight: 0.04
+
+# Price level shifts (per level, scaled by multiplier)
+price_shifts:
+  1: [0.03, 0.03, -0.02, 0.02, -0.01, 0.0, 0.0]
+  2: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  3: [-0.02, -0.02, 0.04, 0.0, 0.03, 0.0, 0.0]
+  4: [-0.03, -0.04, 0.06, 0.0, 0.05, 0.0, 0.0]
+
+# Fallback strategy
+fallback_on_no_match: global_mean  # global_mean, genre_mean, zero_vector
+
+# Clipping
+clip_min: 0.0
+clip_max: 1.0
+
+random_seed: 42

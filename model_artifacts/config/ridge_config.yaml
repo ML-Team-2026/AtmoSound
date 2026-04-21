@@ -1,0 +1,29 @@
+# Ridge Regression Hyperparameters
+solver: closed_form  # closed_form (optimal), gradient_descent (legacy)
+
+# Closed-form solution: W = (X^T X + λI)^-1 X^T y
+lambda_grid:
+  start: -5    # 10^-5
+  stop: 3      # 10^3
+  num_values: 25
+
+# Legacy gradient descent (deprecated)
+learning_rate: 0.01
+num_iterations: 100
+standardize: true
+
+# Regularization type
+regularization_type: L2  # L2 (Ridge), L1 (Lasso), ElasticNet
+
+# Feature configurations for ablation
+feature_configs:
+  - name: "Boolean flags only"
+    features: boolean
+  - name: "Text (SVD) only"
+    features: text
+  - name: "Full feature vector"
+    features: full
+
+# Evaluation
+stratify_by: primary_type
+random_seed: 42

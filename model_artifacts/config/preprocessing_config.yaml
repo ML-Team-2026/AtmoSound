@@ -1,0 +1,28 @@
+spotify:
+  min_popularity: 10
+  genres_to_use: 7  # danceability, energy, acousticness, valence, instrumentalness, liveness, speechiness
+
+text:
+  svd_components: 50
+  tfidf_max_features: 5000
+  ngram_range: [1, 2]
+  sublinear_tf: true
+  min_df: 2
+  max_df_ratio: 0.95
+
+features:
+  rating_impute_strategy: median  # median, mean, global
+  boolean_unknown_value: -1  # -1, 0, 0.5
+  price_missing_handling: separate_col  # separate_col, impute_2, drop, one_hot_expand
+
+labels:
+  boolean_shift_multiplier: 1.0
+  price_shift_multiplier: 1.0
+  use_review_count_weights: false
+
+preprocessing:
+  random_seed: 42
+  train_ratio: 0.8
+  val_ratio: 0.1
+  test_ratio: 0.1
+  stratify_by: primary_type

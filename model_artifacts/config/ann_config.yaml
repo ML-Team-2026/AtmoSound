@@ -1,0 +1,42 @@
+# Neural Network Hyperparameters
+
+# Experiment 2A: Architecture Search
+architectures:
+  - [64, 32]
+  - [128, 64]
+  - [256, 128]
+  - [512, 256]
+  - [256, 256, 128]  # 3-layer
+  - [512, 256, 128]  # 3-layer wide
+
+# Experiment 2B: Regularization Search
+dropout_rates: [0.0, 0.1, 0.2, 0.3]
+l2_lambdas: [0.0, 0.00001, 0.0001, 0.001]
+batch_normalization: [false, true]
+
+# Training hyperparameters
+learning_rate: 0.005
+batch_size: 64
+early_stopping_patience: 20
+max_epochs: 500
+
+# Weight initialization
+initialization: he  # he, xavier, normal, uniform
+initialization_scale: 0.01
+
+# Activation functions
+activation_hidden: relu  # relu, leaky_relu, tanh, elu
+activation_output: sigmoid
+
+# Optimizer
+optimizer: sgd  # sgd, adam, rmsprop
+momentum: 0.9  # for SGD
+
+# Learning rate schedule
+lr_schedule: none  # none, linear_decay, cosine_decay, exponential_decay
+
+# Regularization
+dropout_per_layer: true  # apply dropout to all hidden layers
+batch_norm_per_layer: false
+
+random_seed: 42

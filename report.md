@@ -149,27 +149,6 @@ Three anticipated challenges are Google Maps API rate limits and incomplete venu
 
 ## [A.1 - 4.1.1] Diagrams (4.1.1 Data Collection, Exploration & Processing (6 points) in Grading Rubric)
 
-|        \[1\] Venue Category Distribution        |        \[2\] Venue Rating Distribution        |
-| :---------------------------------------------: | :-------------------------------------------: |
-|                   ![][image1]                   |                **![][image2]**                |
-|       **\[3\] Price Level Distribution**        |    **\[4\] Venue Count by Neighbourhood**     |
-|                 **![][image3]**                 |                **![][image4]**                |
-|     **\[5\] Boolean Attribute Prevalence**      | **\[6\] Boolean Attribute Missingness Rates** |
-|                 **![][image5]**                 |                **![][image6]**                |
-|   **\[7\] Geographic Distribution of Venues**   |      **\[8\] Venue Rating by Category**       |
-|                 **![][image7]**                 |                **![][image8]**                |
-|        **\[9\] Primary Type Frequency**         |    **\[10\] Audio Feature Distributions**     |
-|                 **![][image9]**                 |               **![][image10]**                |
-| **\[11\] Audio Feature Distributions by Genre** |    **\[12\] Song Popularity Distribution**    |
-|                **![][image11]**                 |               **![][image12]**                |
-|          **\[13\] Tempo Distribution**          |  **\[14\] Audio Feature Correlation Matrix**  |
-|                **![][image13]**                 |               **![][image14]**                |
-|   **\[15\] Genre-Level Mean Audio Profiles**    |  **\[16\] Energy vs. Danceability by Genre**  |
-|                **![][image15]**                 |               **![][image16]**                |
-|     **\[17\] Genre Audio Feature Heatmap**      |    **\[18\] Venue Rating by Price Level**     |
-|                **![][image17]**                 |               **![][image18]**                |
-
-
 ## [A.2 - 4.2] FIGMA (4.2 Front-End Application Using Streamlit in Grading Rubric)
 
 [Figma](https://www.figma.com/design/9u4ravj5uUmg4kcjaj0IFI/AtmoSound-Final-Proposal?node-id=1-4&t=LUSxelZiGufd4wv5-1%20)

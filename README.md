@@ -1,8 +1,4 @@
-- [report.md](report.md)
-- [midpoint.md](midpoint.md)
-- TODO: move [github.com/aaprog123/AtmoSound](https://github.com/aaprog123/AtmoSound) here and change visibility of [github.com/ML-Team-2026/AtmoSound](https://github.com/ML-Team-2026/AtmoSound)
-
-
+[report.md](report.md) | [midpoint.md](midpoint.md)
 
 ## How to Run the the AtmoSound Streamlit App
 

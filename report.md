@@ -6,7 +6,7 @@
 
 *Our team will implement Ridge Regression, Neural Networks, and potentially K-Nearest Neighbours to ingest venue data and accurately create playlists. We will evaluate performance using mean-squared error (MSE), cosine similarity, and top-K genre retrieval accuracy. We expect venue feature-level data to be a strong predictor of desired acoustic features and that our ML methods and UI will outperform human-curated playlists in quality and speed. We also aim to clarify how recommendation algorithms shape human experience and identify which venue characteristics most affect customer experience.*
 
-# [2] Introduction -> - Introduction: There is no overview of existing work on the problem (-1 point) or summary prior efforts to solve the problem and research gaps  (-1 point)
+# [2] Introduction ->
 
 Music is a measurable driver of how customers feel, how long they stay, and how they perceive a brand. Yet most venues still select music manually or rely on existing playlists. Existing recommendation systems are built to optimize for individual listening history, not the atmospheric identity of a physical location. Meanwhile, venues already generate rich public signals through platforms like Google Maps: venue type, customer reviews, category metadata, and foot traffic patterns and attribute flags that remain largely untapped for this purpose. 
 
@@ -81,7 +81,7 @@ Most critically, Figures 15–17 confirm that genres occupy distinct regions of 
 * Normalize tempo (0–243 BPM) and loudness (-60 to 0 dB) to 0–1 scale.  
 * Compute per-genre mean audio profiles which will help us create the target possible points and overall final space to streamline the outputs to fit into.
 
-### [4.1.2] Methods and Model Training -> - Methods and Model Training: There is no justification for why the machine learning algorithms are well-suited to solve the problem (-2 points)
+### [4.1.2] Methods and Model Training -> - 
 
 We will implement two primary regression methods from scratch using NumPy to ensure full algorithmic transparency and learning. Both address the multi-output prediction problem: given venue feature vector **x** ∈ ℝ^d, predict target audio profile **y** ∈ ℝ^7 (danceability, energy, acousticness, valence, instrumentalness, liveness, speechiness).  
 **Method 1: Multi-Output Ridge Regression.** Ridge regression minimizes the regularized least squares objective:  

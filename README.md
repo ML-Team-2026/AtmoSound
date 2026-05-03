@@ -27,3 +27,6 @@
    - Click "Go To Playlist" to see songs generated for Cornell tech Cafe
    - To return home click either 'Home' button or AtmoSound logo
 
+---
+
+Move [eval](https://github.com/aaprog123/AtmoSound-eval) to this repo
